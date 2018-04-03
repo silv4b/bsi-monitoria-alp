@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/eclipse,pycharm,netbeans,pycharm+all,pycharm+iml,sublimetext,visualstudiocode
 
+.__pycache__
+.vscode
+
 ### Eclipse ###
 
 .metadata
