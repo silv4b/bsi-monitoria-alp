@@ -1,3 +1,5 @@
+# coding: utf-8
+
 aluno = input("Nome do aluno: ")
 matricula = input("Matricla do aluno: ")
 
