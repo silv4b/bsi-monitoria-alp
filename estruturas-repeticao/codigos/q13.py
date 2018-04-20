@@ -4,7 +4,7 @@ anoi = int(input("Ano inicial: "))
 anof = int(input("Ano final: "))
 while (anoi <= anof):
     print ("Ano: %i Percentual: %.1f%% Salario: R$ %.2f" % (anoi, percentual, salario))
-    salario += (salario * (percentual / 100.0))
+    salario += (salario * percentual)
     percentual *= 2
     anoi += 1
 

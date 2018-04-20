@@ -1,10 +1,14 @@
 num = int(input("Digite um número: "))
 
-while True:    
-    if (num%2==0):
-        print("Número %d não é primo" % num)
-        num = int(input("Digite um número: "))
-    else:
-        break
+cont = num
+
+while cont != 2:
+    cont -= 1
+    print(cont)
+    if num % cont == 0:
+        print("%d não é um número primo!")
+        n = int(input("Digite um número primo: "))
+        cont = n
+
 
 print("Número %d é primo\nFIM!" % num)
