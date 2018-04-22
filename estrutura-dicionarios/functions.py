@@ -6,7 +6,7 @@ def limpatela():
 
 def questao(n):
     print('='*23)
-    print('='*6,"Questão {}".format(n).strip(),'='*6)
+    print('='*6,"Quesão {}".format(n).strip(),'='*6)
     print('='*23)
 
 def timedate():
