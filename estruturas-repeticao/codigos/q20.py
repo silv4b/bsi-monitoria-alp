@@ -3,6 +3,7 @@ import time as tempo
 
 ini = int(input("Inicio: "))
 fim = int(input("Fim: "))
+
 contador = 0
 
 start = tempo.time()
