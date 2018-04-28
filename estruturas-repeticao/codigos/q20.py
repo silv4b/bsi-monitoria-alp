@@ -25,7 +25,5 @@ while (contador <= fim):
     contador = contador + 1
 
 end = tempo.time()
-
 total = end - start
-
 print("Tempo decorrido: %.2f " % total)

@@ -9,6 +9,7 @@ if(numero != 999):
     
     soma += numero
     maior = menor = numero
+
     while (numero != 999):
         numero = int(input("Número: "))
         contador += 1
@@ -16,9 +17,15 @@ if(numero != 999):
             soma += numero
             if(numero > maior):
                 maior = numero
-            if(numero < menor):
+            if(numero < menor and numero >= 0):
                 menor = numero
+    media = soma/contador
 
-media = soma/contador
-print("\nMaior número: {}\nMenor número: {}".format(maior, menor))
-print("Média dos números digitados: {}".format(media))
+    print("\nQuantidade de valores digitados: {}".format(contador))
+    print("Maior número: {}\nMenor número: {}".format(maior, menor))
+    print("Média dos números digitados: {}".format(media))
+
+else:
+    print("Nenhum número digitado!")
+
+print("Fim!")
