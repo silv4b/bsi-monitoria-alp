@@ -23,6 +23,8 @@ media = (n1+n2+n3)/3
 
 if (media < 3):
     situacao = "Reprovado"
+elif (n1 == 0 or n2 == 0 or n3 == 0):
+    situacao = "Reprovado"
 elif (media > 3 and media < 6):
     situacao = "Recuperação"
 else:
@@ -32,5 +34,5 @@ print("\nNotas do aluno: ", aluno, "\nMatricula: ", matricula)
 print("Nota 1: ", n1)
 print("Nota 2: ", n2)
 print("Nota 3: ", n3)
-print("Media do aluno: ", (n1+n2+n3)/3)
+print("Media do aluno: %.2f " % media)
 print("Situação: ", situacao)
