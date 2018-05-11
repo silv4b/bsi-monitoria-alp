@@ -21,9 +21,7 @@ while (n3 < 0) or (n3 > 10):
 
 media = (n1+n2+n3)/3
 
-if (media < 3):
-    situacao = "Reprovado"
-elif (n1 == 0 or n2 == 0 or n3 == 0):
+if (media < 3 or ((n1 == 0 or n2 == 0 or n3 == 0))):
     situacao = "Reprovado"
 elif (media > 3 and media < 6):
     situacao = "Recuperação"

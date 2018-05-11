@@ -17,9 +17,7 @@ media = notatotal/numeronotas
 
 print("Media do aluno: %.2f" % media)
 
-if (media < 3):
-    situacao = "Reprovado"
-elif (zero == 1):
+if (media < 3 or zero == 1):
     situacao = "Reprovado"
 elif (media > 3 and media < 6):
     situacao = "Recuperação"
