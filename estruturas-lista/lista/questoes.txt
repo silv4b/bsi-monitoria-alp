@@ -29,16 +29,9 @@ códido em python (3.x.x):
 
 	print("FIM!")
 
-7. Escreva um programa em python que implemente uma lista de operções:
-	Funcionamento: A lista de operações de define o número de vezes que ações serão tomadas dentro da execução dó código, de maneira que, definidas as operções, a lista seriva só pra "dizer" quantas vezes será feitas as operções.
-	operções:
-	soma com 2 - subitração 3 - multiplicação por 5 - incremento de 1
-	Ex: listadeop [1,2,2,3]
-	nesse exemplo, dentro do códido, serão feitas na ordem: 1 soma, 2 subitrações, uma multiplicação e um incremento de um.
+7. Escreva um programa em python que armazene 10 inteiros positivos diferentes, obtenha a média desses números e exiba todos os números abaixo dessa média.
 
-Dadas essas mesmas operções, implemente para as listas [8,14,9,(5/2*10)] e [45,2,33,7].
-
-8. Escreva um programa em python que mantenha duas listas, uma para contatos e outra para seus respectivos números, insira contados nessa lista e exiba ela no fim da execução, detalhe, o numero precisa ser somente 8 dígitos, não mais e nem menos.
+8. Escreva um programa em python que mantenha duas listas, uma para contatos e outra para seus respectivos números, insira 5 contados nessa lista e exiba ela no fim da execução, detalhe, o numero precisa ter somente 8 dígitos, não mais e nem menos.
 
 9. O que o seguinte código faz?
 
@@ -54,4 +47,4 @@ Dadas essas mesmas operções, implemente para as listas [8,14,9,(5/2*10)] e [45
     8.
 	9. print("frase:", frase)
 
-10. Escreva um programa em python que preencha uma lista com uma palavra ou qualquer sequência de caracteres e exiba para o usuário quantas vogais e quantas consoantes existem ali.
+10. Escreva um programa em python que preencha uma lista com uma palavra ou qualquer sequência de caracteres e conte para o usuário quantas vogais e quantas consoantes existem ali.
