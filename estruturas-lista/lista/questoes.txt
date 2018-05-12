@@ -1,0 +1,57 @@
+1. Escreva um programa em python que tenha uma lista que receba 10 valores, desses, apenas número positivos.
+
+2. Escreva um programa em python que ordene a lista preenchida na questão anterior. Detalhe, pesquisar sobre o método bolha e como ele funciona.
+
+3. Escreva um programa em python que simune um jogo de dados, gerando numeros aleatórios dentro do intervalo 1 - 6, jogue esse "dado" 10 vezes, salve os números que foram sorteados e informe ao usuário qual o maior, o menor e as posições desses números dentro da lista. Detalhe, com e SEM o uso das funções max() e min().
+
+4. Dada a lista [9,1,3,2,5,2,5,5,7,0,4,1,6,5,9] crie um programa em python que:
+1) some todos o número da esquerda para a direita.
+2) subtraia todos os números da direita para a esquerda (ex: 9-5=4 -> 4-6= -2 ... ).
+3) some a soma dos 3 maiores número com a soma dos três menores números.
+
+5. Escreva um programa em python que, dada uma determinada palavra, verifique se ela é ou não palindroma. Obs: String passadas como parâmetros devem ser convertidas para o tipo lista. atente para o cast list(), onde palavra = list(palavra), palavra agora é uma lista.
+
+6. Veja o código a seguir e preencha os blocos de código (funcionalidade comentada) e por fim exiba as listas no fim da execução. Obs: os condicionais dos ifs podem ser criados a escolha do aluno.
+
+códido em python (3.x.x):
+
+	candidatos = [22,45,78,5,45,63,99,2,51,8]
+	aprovados  = []
+	em_espera  = []
+	if [bloco de código 1]:
+		print("aprovado")
+		[bloco de código 2] #insere na lista de aprovados
+	elif[bloco de código 3]:
+		print("lista de espera")
+		[bloco de código 4] #insere na lista de espera
+	else:
+		print("quem não estiver nas listas, foi reprovado")
+
+	print("FIM!")
+
+7. Escreva um programa em python que implemente uma lista de operções:
+	Funcionamento: A lista de operações de define o número de vezes que ações serão tomadas dentro da execução dó código, de maneira que, definidas as operções, a lista seriva só pra "dizer" quantas vezes será feitas as operções.
+	operções:
+	soma com 2 - subitração 3 - multiplicação por 5 - incremento de 1
+	Ex: listadeop [1,2,2,3]
+	nesse exemplo, dentro do códido, serão feitas na ordem: 1 soma, 2 subitrações, uma multiplicação e um incremento de um.
+
+Dadas essas mesmas operções, implemente para as listas [8,14,9,(5/2*10)] e [45,2,33,7].
+
+8. Escreva um programa em python que mantenha duas listas, uma para contatos e outra para seus respectivos números, insira contados nessa lista e exiba ela no fim da execução, detalhe, o numero precisa ser somente 8 dígitos, não mais e nem menos.
+
+9. O que o seguinte código faz?
+
+	código:
+
+    1. frase = list("o rato roeu a roupa do rei de roma")
+	2.
+    3. print("frase:", frase)
+    4.
+	5. for x in range(len(frase)):
+    6. if (frase[x] == ' '):
+    7.     frase[x] = '-'
+    8.
+	9. print("frase:", frase)
+
+10. Escreva um programa em python que preencha uma lista com uma palavra ou qualquer sequência de caracteres e exiba para o usuário quantas vogais e quantas consoantes existem ali.
