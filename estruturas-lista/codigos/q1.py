@@ -1,9 +1,9 @@
-L = []*10
-tamanho = len(L)
+L = []
+tamanho = 10
 
 for i in range (tamanho):
     num = int(input("Digite o número: "))
-    while num%2 == 1:
+    while num%2 == 1 or num == 0:
         num = int(input("Entrada iválida\nDigite p número: "))
     L.append(num)
     

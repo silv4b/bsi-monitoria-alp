@@ -1,4 +1,4 @@
-palavra = "bruno borges"
+palavra = input("Palavra: ")
 sumvog = 0
 
 for i in range(len(palavra)):
