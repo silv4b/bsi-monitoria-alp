@@ -14,5 +14,5 @@ for i in range(vezes):
         if(tentativas == 1):
             print("Parabéns, vc acertou o número %d em uma tentativa!" % (numero))
         else:
-            print("Parabéns, vc acertou o número %d em %d tentativas!" % (numero, tentativas))
+            print("Parabéns, vc acertou o número %d em %d tentativas!" % (numero, tentativas+1))
         break
