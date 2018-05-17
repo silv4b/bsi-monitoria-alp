@@ -1,15 +1,14 @@
-# coding: utf-8
-
 num = int(input("Digite um número: "))
+c = 0
+print("Div. p/ ", end=" ")
+for n in range(1, num + 1):
+    if(num%n == 0):
+        print("[ %d ]" % n, end=" ")
+        c += 1
+    else:
+        print("%d" % n, end=" ")
 
-cont = num
-
-while cont != 2:
-    cont -= 1
-    #print(cont)
-    if num % cont == 0:
-        print("%d não é um número primo!" % num)
-        num = int(input("Digite um número primo: "))
-        cont = num
-
-print("Número %d é primo\nFIM!" % num)
+if(c == 2):
+    print("\n%d é primo!" % num)
+else:
+    print("\n%d não é primo!" % num)

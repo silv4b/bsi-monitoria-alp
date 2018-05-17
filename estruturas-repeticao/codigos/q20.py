@@ -26,4 +26,4 @@ while (contador <= fim):
 
 end = tempo.time()
 total = end - start
-print("Tempo decorrido: %.2f " % total)
+print("Tempo decorrido: %.5f " % total)
