@@ -18,5 +18,5 @@ else:
         if v == 's' or v == 'S':
             b = False
 
-print("lista pares: ", par)
+print("\nlista pares: ", par)
 print("lista impares: ", impar)

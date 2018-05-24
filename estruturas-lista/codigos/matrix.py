@@ -50,4 +50,5 @@ for l in range(4):
             maior_linha = l
             maior_coluna = c
 
+print('O maior elemento é: {}'.format(maior))
 print('linha do maior: {}\ncoluna do maior: {}'.format(maior_linha+1, maior_coluna+1))
