@@ -1,9 +1,9 @@
 
 # Created by https://www.gitignore.io/api/eclipse,pycharm,netbeans,pycharm+all,pycharm+iml,sublimetext,visualstudiocode
 
-ignore-code/
-codigos/
-ListaNotMine/
+estruturas-lista/ignore-code/
+estruturas-lista/codigos/
+estruturas-lista/ListaNotMine/
 
 .__pycache__
 .vscode
