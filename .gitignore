@@ -2,6 +2,8 @@
 # Created by https://www.gitignore.io/api/eclipse,pycharm,netbeans,pycharm+all,pycharm+iml,sublimetext,visualstudiocode
 
 ignore-code/
+codigos/
+ListaNotMine/
 
 .__pycache__
 .vscode

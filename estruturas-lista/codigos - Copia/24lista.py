@@ -1,1 +1,0 @@
-palavra = input("Palavra: ")
