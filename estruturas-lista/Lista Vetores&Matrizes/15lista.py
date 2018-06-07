@@ -14,12 +14,14 @@ u = "úùû"
 cc = "ç"
 pts = "\"',!¹-_+=/*#$%¨& "
 
+ign = "\"',!¹-_+=/*#$%¨&úùûòóôõìíîéèêâáàã@ "
+
 #Verifica caracteres especiais
 for g in range(len(p)):
-    if plv[g] in a:
+    if plv[g] in ign:
         plv[g] = 'a'
     if plv[g] in e:
-        plv[g] = 'e'    
+        plv[g] = 'e'
     if plv[g] in i:
         plv[g] = 'i'
     if plv[g] in o:
